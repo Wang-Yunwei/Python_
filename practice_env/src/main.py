@@ -1,7 +1,6 @@
 def main():
     """
-
-
+    程序主入口
     """
     print("Hello World")
 

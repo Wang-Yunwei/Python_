@@ -1,0 +1,7 @@
+# 示例
+# requests
+# numpy>=1.21.0
+# flask==2.3.3
+# pandas
+
+requests==2.32.5

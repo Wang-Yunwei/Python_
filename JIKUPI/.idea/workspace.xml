@@ -1,69 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd726488-745a-4ea2-9bac-e5c1eb9f7338" name="Default Changelist" comment="mqtt以及">
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/edl-v10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/aws_iot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_mqtt_clear_retain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_pub-wait.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_pub_opts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_rpc_math.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_session_present.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_sub-class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_sub-multiple-callback.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_sub-srv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_sub-ws.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_sub.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/client_sub_opts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/loop_asyncio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/loop_select.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/loop_trio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/publish_multiple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/publish_single.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/publish_utf8-27.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/publish_utf8-3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/server_rpc_math.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/subscribe_callback.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/examples/subscribe_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/notice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/setup.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt/matcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt/packettypes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt/properties.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt/publish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt/reasoncodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt/subscribe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho/mqtt/subscribeoptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho_mqtt.egg-info" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho_mqtt.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho_mqtt.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho_mqtt.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho_mqtt.egg-info/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho_mqtt.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WHL/paho-mqtt-1.6.1/src/paho_mqtt.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testlog/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="dd726488-745a-4ea2-9bac-e5c1eb9f7338" name="Default Changelist" comment="mqtt以及" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +28,9 @@
       </map>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -95,18 +39,27 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2o6s8UMVxL9HwAAK2xefJKoEF9W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WHL" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\zyhk\shangweiji\jikuapi\common\luxd\JIKUPI\WHL" />
@@ -115,171 +68,18 @@
       <recent name="E:\zyhk\shangweiji\jikuapi\common\luxd\JIKUPI\WHL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.JIKUPI">
-    <configuration name="JIKUPI" type="PythonConfigurationType" factoryName="Python">
-      <module name="JIKUPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/startservice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="OperateUtil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="JIKUPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BASEUtile" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BASEUtile/OperateUtil.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="JIKUPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="JIKUPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testlog" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testlog/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="JIKUPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="websockets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="JIKUPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ServerManager" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ServerManager/websockets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.OperateUtil" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.websockets" />
-        <item itemvalue="Python.test" />
-      </list>
-    </recent_temporary>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\WangYunwei\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\zyhk\shangweiji\jikuapi\common\luxd\JIKUPI" />
-          <option name="myCopyRoot" value="E:\zyhk\shangweiji\jikuapi\common\luxd\JIKUPI" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\zyhk\shangweiji\jikuapi\common\luxd\JIKUPI" />
-          <option name="myCopyRoot" value="E:\zyhk\shangweiji\jikuapi\common\luxd\JIKUPI" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -348,6 +148,7 @@
       <workItem from="1735186771583" duration="2718000" />
       <workItem from="1735197519959" duration="7000" />
       <workItem from="1735210991067" duration="2326000" />
+      <workItem from="1753407638484" duration="1069000" />
     </task>
     <task id="LOCAL-00001">
       <created>1730201248403</created>
