@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd726488-745a-4ea2-9bac-e5c1eb9f7338" name="Default Changelist" comment="mqtt以及" />
+    <list default="true" id="dd726488-745a-4ea2-9bac-e5c1eb9f7338" name="Default Changelist" comment="mqtt以及">
+      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/mdtg-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,10 +47,10 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2o6s8UMVxL9HwAAK2xefJKoEF9W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,6 +60,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/workspace/WYwei/Python_/JIKUPI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -149,6 +158,7 @@
       <workItem from="1735197519959" duration="7000" />
       <workItem from="1735210991067" duration="2326000" />
       <workItem from="1753407638484" duration="1069000" />
+      <workItem from="1776253877473" duration="715000" />
     </task>
     <task id="LOCAL-00001">
       <created>1730201248403</created>
