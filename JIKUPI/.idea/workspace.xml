@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd726488-745a-4ea2-9bac-e5c1eb9f7338" name="Default Changelist" comment="mqtt以及">
-      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/mdtg-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mdtg-server/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dd726488-745a-4ea2-9bac-e5c1eb9f7338" name="Default Changelist" comment="mqtt以及" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +39,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="无" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -56,19 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/workspace/WYwei/Python_/JIKUPI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/WYwei/Python_/JIKUPI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\zyhk\shangweiji\jikuapi\common\luxd\JIKUPI\WHL" />
@@ -159,6 +154,7 @@
       <workItem from="1735210991067" duration="2326000" />
       <workItem from="1753407638484" duration="1069000" />
       <workItem from="1776253877473" duration="715000" />
+      <workItem from="1782367175557" duration="2442000" />
     </task>
     <task id="LOCAL-00001">
       <created>1730201248403</created>
