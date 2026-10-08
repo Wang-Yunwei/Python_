@@ -16,7 +16,7 @@ from typing import Callable, Any
 
 TAG = __name__
 
-
+# 获取本地IP
 def get_local_ip():
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -28,7 +28,7 @@ def get_local_ip():
     except Exception as e:
         return "127.0.0.1"
 
-
+# 判断是否是私有IP
 def is_private_ip(ip_addr):
     """
     Check if an IP address is a private IP address (compatible with IPv4 and IPv6).
@@ -72,7 +72,7 @@ def is_private_ip(ip_addr):
     except (ValueError, IndexError):
         return False  # IP address format error or insufficient segments
 
-
+# 获取IP信息
 def get_ip_info(ip_addr, logger):
     try:
         # 导入全局缓存管理器
@@ -97,13 +97,13 @@ def get_ip_info(ip_addr, logger):
         logger.bind(tag=TAG).error(f"Error getting client ip info: {e}")
         return {}
 
-
+# 写Json到文件
 def write_json_file(file_path, data):
     """将数据写入 JSON 文件"""
     with open(file_path, "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
 
-
+# 去除标点并计算长度
 def remove_punctuation_and_length(text):
     # 全角符号和半角符号的Unicode范围
     full_width_punctuations = (
@@ -129,13 +129,13 @@ def remove_punctuation_and_length(text):
         return 0, ""
     return len(result), result
 
-
+# 检查模型密钥
 def check_model_key(modelType, modelKey):
     if "你" in modelKey:
         return f"配置错误: {modelType} 的 API key 未设置,当前值为: {modelKey}"
     return None
 
-
+# 解释字符串为列表
 def parse_string_to_list(value, separator=";"):
     """
     将输入值转换为列表
@@ -153,7 +153,7 @@ def parse_string_to_list(value, separator=";"):
         return value
     return []
 
-
+# 检查ffmpeg安装
 def check_ffmpeg_installed() -> bool:
     """
     检查当前环境中是否已正确安装并可执行 ffmpeg。
@@ -216,7 +216,7 @@ def check_ffmpeg_installed() -> bool:
         # 抛出详细异常信息
         raise ValueError("\n".join(error_msg)) from e
 
-
+# 从字符串中提取JSON
 def extract_json_from_string(input_string):
     """提取字符串中的 JSON 部分"""
     pattern = r"(\{.*\})"
@@ -225,7 +225,7 @@ def extract_json_from_string(input_string):
         return match.group(1)  # 返回提取的 JSON 字符串
     return None
 
-
+# 音频转数据流
 def audio_to_data_stream(
     audio_file_path, is_opus=True, callback: Callable[[Any], Any] = None, sample_rate=16000, opus_encoder=None
 ) -> None:
@@ -245,7 +245,7 @@ def audio_to_data_stream(
     raw_data = audio.raw_data
     pcm_to_data_stream(raw_data, is_opus, callback, sample_rate, opus_encoder)
 
-
+# 音频转数据
 async def audio_to_data(
     audio_file_path: str, is_opus: bool = True, use_cache: bool = True
 ) -> list[bytes]:
@@ -323,7 +323,7 @@ async def audio_to_data(
 
     return result
 
-
+# 音频字节转数据流
 def audio_bytes_to_data_stream(
     audio_bytes, file_type, is_opus, callback: Callable[[Any], Any], sample_rate=16000, opus_encoder=None
 ) -> None:
@@ -566,13 +566,13 @@ def is_valid_image_file(file_data: bytes) -> bool:
 
     return False
 
-
+# 清洁工具名称
 def sanitize_tool_name(name: str) -> str:
     """Sanitize tool names for OpenAI compatibility."""
     # 支持中文、英文字母、数字、下划线和连字符
     return re.sub(r"[^a-zA-Z0-9_\-\u4e00-\u9fff]", "_", name)
 
-
+# 验证mcp端点
 def validate_mcp_endpoint(mcp_endpoint: str) -> bool:
     """
     校验MCP接入点格式
@@ -597,6 +597,7 @@ def validate_mcp_endpoint(mcp_endpoint: str) -> bool:
 
     return True
 
+# 获取系统错误响应
 def get_system_error_response(config: dict) -> str:
     """获取系统错误时的回复
 
